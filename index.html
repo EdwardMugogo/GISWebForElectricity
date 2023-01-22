@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Electricity HT Line and Substation Maps</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+     integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
+     crossorigin=""/> 
+
+  <link rel="stylesheet" href="css/Control.FullScreen.css">
+  <link rel="stylesheet" href="css/leaflet.legend.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.css" integrity="sha384-P9DABSdtEY/XDbEInD3q+PlL+BjqPCXGcF8EkhtKSfSTr/dS5PBKa9+/PMkW2xsY" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/map.css">
+
+</head>
+<body>
+<div id="map"></div>
+<div id="coordinate"></div>
+
+<script 
+   src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+   integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
+   crossorigin=""></script> 
+
+<script 
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous"></script>
+
+
+<script src="js/leaflet.browser.print.min.js"></script>
+<script src="js/leaflet.legend.js"></script>
+<script src="js/Control.FullScreen.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.js" integrity="sha384-N2S8y7hRzXUPiepaSiUvBH1ZZ7Tc/ZfchhbPdvOE5v3aBBCIepq9l+dBJPFdo1ZJ" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="data/Substation.js"></script>
+<script type="text/javascript" src="data/11kV.js"></script>
+<script type="text/javascript" src="data/33kV.js"></script>
+<script type="text/javascript" src="data/Poles.js"></script>
+
+<script type="text/javascript" src="js/map.js"></script>
+</body>
+</html>
